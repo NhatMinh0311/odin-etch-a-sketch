@@ -1,0 +1,29 @@
+button {
+    background-color: #3882f6;
+    color: white;
+    border-radius: 8px;
+    border-width: 0;
+    padding: 8px;
+    margin: 12px;
+}
+
+#container {
+    height: 960px;
+    width: 960px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+}
+
+.row {
+    flex: 1;
+    display: flex;
+}
+
+.square {
+    flex: 1;
+    border: 1px solid black;
+}
+
+
+
